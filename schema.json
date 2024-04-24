@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "название пункта назначения": {"type": "string"},
+        "номер рейса": {"type": "string"},
+        "тип самолета": {"type": "string"}
+      },
+      "required": ["название пункта назначения", "номер рейса", "тип самолета"]
+    }
+  }
